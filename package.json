@@ -13,6 +13,7 @@
     "@hotwired/turbo-rails": "^8.0.18",
     "@tailwindcss/cli": "^4.1.14",
     "flowbite": "^3.1.2",
+    "playwright": "^1.56.1",
     "tailwindcss": "^4.1.14"
   }
 }

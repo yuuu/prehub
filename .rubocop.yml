@@ -1,5 +1,8 @@
 plugins:
+  - rubocop-capybara
   - rubocop-rails
+  - rubocop-rspec
+  - rubocop-rspec_rails
 
 AllCops:
   TargetRubyVersion: 3.4
@@ -7,4 +10,7 @@ AllCops:
   NewCops: enable
 
 Style/Documentation:
+  Enabled: false
+
+RSpecRails/InferredSpecType:
   Enabled: false
