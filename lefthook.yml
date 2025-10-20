@@ -1,0 +1,11 @@
+pre-push:
+  jobs:
+    - name: rspec
+      glob: "*.rb"
+      run: bundle exec rspec
+
+pre-commit:
+  jobs:
+    - name: rubocop
+      glob: "*.rb"
+      run: bundle exec rubocop --force-exclusion {all_files}
