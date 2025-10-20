@@ -24,7 +24,8 @@ gem 'tzinfo-data', platforms: %i[windows jruby]
 group :development, :test do
   gem 'brakeman', require: false
   gem 'debug', platforms: %i[mri windows], require: 'debug/prelude'
-  gem 'lefthook'
+  gem 'erb_lint', require: false
+  gem 'lefthook', require: false
   gem 'rspec-rails'
   gem 'rubocop-capybara', require: false
   gem 'rubocop-rails', require: false
