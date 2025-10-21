@@ -1,24 +1,35 @@
-# README
+# Prehub
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Prehub is an IoT backend application designed for proof-of-concept purposes.
+The name "Prehub" was created by combining the words _prefab_ and _hub_.
 
-Things you may want to cover:
+## Requirements
 
-* Ruby version
+Prehub requires the following software to be installed:
 
-* System dependencies
+* Ruby 3.4
+* Node.js 24
+* Yarn
+* ImageMagick
 
-* Configuration
+## Installation
 
-* Database creation
+```sh
+git clone https://github.com/yourusername/prehub.git
+cd prehub
+bin/setup
+```
 
-* Database initialization
+## Usage
 
-* How to run the test suite
+To start the application, run the following command:
 
-* Services (job queues, cache servers, search engines, etc.)
+```sh
+bin/dev
+```
 
-* Deployment instructions
+Then open [http://localhost:3000](http://localhost:3000) in your browser to access the application.
 
-* ...
+## License
+
+Prehub is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
